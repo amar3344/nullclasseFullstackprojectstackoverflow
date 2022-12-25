@@ -1,0 +1,66 @@
+.navbar-container form {
+    position: relative;
+    flex-grow: 1;
+    padding: 0px 12px;
+    
+}
+
+.input-text{
+   padding: 8px 10px 8px 32px;
+   border: 1px solid #00000062;
+   font-size: 12px;
+   border-radius: 5px;
+   height: 30px;
+   width: 100%;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-top: 3px solid orange;
+    box-shadow: 0px 1px 5px #00000093;
+    padding: 10px;
+    background-color: azure;
+}
+
+.navbar-container{  
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-buttons{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav-buttons:hover{
+    background-color: #fff;
+}
+
+.nav-items{
+    text-decoration: none;
+    margin: 0px 3px;
+}
+
+.search-image{
+    width: 18px;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+
+}
+
+.stack-image{
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
