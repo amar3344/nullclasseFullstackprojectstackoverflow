@@ -1,0 +1,18 @@
+.avatar-container{
+    border-radius: 50%;
+    background-color: blue;
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+.avatar{
+    color: #fff;
+    text-decoration: none;
+    font-size: small;
+    position: absolute;
+    top: 5px;
+    left: 17px;
+    bottom: 2px;
+}

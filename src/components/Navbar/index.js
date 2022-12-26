@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 
-import Button from "../Button"
+
 import Avatar from "../Avatar"
 
 import "./index.css"
@@ -17,18 +17,18 @@ const Navbar =()=>{
                 <Link to="/">
                     <img src = {stackimage} alt="stackoverflow" className="stack-image" />
                 </Link>
-                <Link to="/" className="nav-items nav-buttons">About</Link>
-                <Link to="/" className="nav-items nav-buttons">Products</Link>
-                <Link to="/" className="nav-items nav-buttons">Teams</Link>
+                <Link to="/about" className="nav-items nav-buttons">About</Link>
+                <Link to="/products" className="nav-items nav-buttons">Products</Link>
+                <Link to="/teams" className="nav-items nav-buttons">Teams</Link>
                 <form>
                     <input type="search" className="input-text" placeholder="search"/>
                     <img src={searchlogo} alt="search" className="search-image"/>
                 </form>
                 {User === null ? 
-                <Link to="/Auth" className="nav-items nav-buttons">Log In</Link> :
+                <Link to="/Auth" className="nav-items nav-buttons log-in">Log In</Link> :
                 <>
-                <Link to="/"><Avatar>A</Avatar></Link>
-                <Button className="nav-items nav-buttons">Log Out</Button>
+                <Link to="/"><Avatar></Avatar></Link>
+                <button type="button" className="nav-items nav-buttons log-in">Log Out</button>
                 </>
                 
             }
