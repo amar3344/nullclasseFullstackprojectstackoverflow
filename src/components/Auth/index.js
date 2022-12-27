@@ -1,7 +1,7 @@
 import {useState} from "react"
 
 import "./index.css"
-import stackoverflowImage from "..//../assets/stackoverflow.svg"
+import stackoverflowImage from "..//../assets/stack-image.png"
 const Auth = ()=>{
   
         const [isSignUp,setIsSignUp] = useState(false)
