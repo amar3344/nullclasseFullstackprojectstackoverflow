@@ -53,9 +53,12 @@ const Auth = ()=>{
                     )}
                     {isSignUp ? <button type="button" className="form-buttons">Sign Up</button> : <button type="submit" className="form-buttons">Login</button>}
                 </form>
-                <p>Don't have an account ?
+                {!isSignUp ? <p>Don't have an account ?
                     <span className="sign-up-btn" onClick={handleSwitch}>sign up</span>
-                </p>
+                </p> : <p>You have an account ?
+                    <span className="sign-up-btn" onClick={handleSwitch}>log in</span>
+                </p>}
+                
             </div>
             
         </div>

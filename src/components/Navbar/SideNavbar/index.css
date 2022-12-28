@@ -1,0 +1,95 @@
+.active{
+    background-color: rgb(74, 99, 99);
+    border-right: 3px solid orange;
+    font-weight: 500;
+    border-radius: 5px;
+    min-width: 100%;
+    padding: 5px;
+
+}
+
+.container-left-nav{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+
+
+.home-page-container{
+    display: flex;
+
+}
+
+.heading-widgest{
+    color: #525960;
+    padding: 12px 15px;
+    background-color: #d6c791;
+    margin-left: -40px;
+
+}
+
+
+.left-side-bar{
+    width: 125px;
+    height: 100vh;
+    border-right: 1px solid #23252577;
+    padding: 10px 12px;
+    box-shadow: 0px 10px 10px #232525;
+    padding-top: 20px;
+}
+
+.left-nav-bar-links{
+    font-size: 13px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+
+.left-nav-bar-links:hover{
+    
+    color: black;
+    
+}
+
+.main-and-right-container{
+    width: calc(100%-125px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container{
+    float: left;
+}
+
+.right-container{
+    width: 300px;
+    float: right;
+    background-color: #fbf3d5;
+    border-radius: 10px;
+    list-style-type: none;
+    
+}
+
+.right-container-a{
+
+}
+
+
+.side-wedge-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -40px;
+}
+
+.stackoverflow-image{
+    width: 50px;
+    background-size: cover;
+}

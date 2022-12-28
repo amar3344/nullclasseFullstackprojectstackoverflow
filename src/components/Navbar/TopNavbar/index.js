@@ -1,18 +1,18 @@
 import {Link} from "react-router-dom"
 
 
-import Avatar from "../Avatar"
+import Avatar from "../../Avatar"
 
 import "./index.css"
-import stackimage from "..//../assets/stacklogo.png"
-import searchlogo from  "..//../assets/searchlogo.svg"
+import stackimage from "../../../assets/stacklogo.png"
+import searchlogo from  "../../../assets/searchlogo.svg"
 
-const Navbar =()=>{
+const TopNavbar =()=>{
 
     var User = null
 
     return(
-        <nav>
+        <nav className="nav-container">
             <div className="navbar-container">
                 <Link to="/">
                     <img src = {stackimage} alt="stackoverflow" className="stack-image" />
@@ -40,4 +40,4 @@ const Navbar =()=>{
     )
 }
 
-export default Navbar
+export default TopNavbar

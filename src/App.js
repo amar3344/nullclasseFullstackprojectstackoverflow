@@ -1,6 +1,7 @@
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 
-import Navbar from "./components/Navbar"
+import TopNavbar from "./components/Navbar/TopNavbar"
+import SideNavbar from "./components/Navbar/SideNavbar"
 import Auth from "./components/Auth"
 import About from "./components/About"
 import Products from "./components/Products"
@@ -10,7 +11,8 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Navbar/>
+      <TopNavbar/>
+      <SideNavbar/>
       <Routes>
         <Route path="/Auth" element={<Auth/>}/>
         <Route path="/about" element={<About/>}/>
