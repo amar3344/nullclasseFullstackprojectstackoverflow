@@ -1,0 +1,53 @@
+.active{
+    background-color: antiquewhite;
+    border-right: 3px solid orange;
+}
+
+.earth-image{
+    width: 15px ;
+    padding:  0px 0px;
+}
+
+.container-a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    
+}
+
+
+.leftsidebar-container{
+    width: 164px;
+    height: 100vh;
+    border-right: 2px solid rgb(112, 107, 107);
+    box-shadow: 0px 12px 20px rgb(112, 107, 107);
+    background-color: rgb(253, 252, 252);
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.nav-links{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 10px;
+    text-decoration: none;
+
+}
+
+
+
+.nav-links:hover{
+    color: #000;
+}
+
+.public-text{
+    padding-left: 20px;
+}
+
+.side-navs{
+    display: flex;
+    align-items: center;
+}
+

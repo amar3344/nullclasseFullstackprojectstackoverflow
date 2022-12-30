@@ -1,0 +1,7 @@
+.right-side-bar{
+    float: right;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+   
+}

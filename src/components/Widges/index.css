@@ -1,0 +1,41 @@
+.blogs-container{
+    display: flex;
+    padding: 0px 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blogs-container p{
+    font-size: 12px;
+    padding: 0px 5px;
+    margin: 5px 0px;
+    
+} 
+
+
+.div-logos{
+    width: 15px;
+    padding: 5px 0px;
+}
+
+.right-widge-containers{
+    padding: 0px 0px;
+}
+
+.right-widge-containers h5{
+    background-color: #fbf3d5;
+    color: #525960;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #f1e5bc;
+    padding: 10px 5px;
+}
+
+.widges-container{
+    width: 300px;
+    float: right;
+    background-color: #fdf7e2;
+    margin: 24px;
+    border-radius: 10px;
+}
+

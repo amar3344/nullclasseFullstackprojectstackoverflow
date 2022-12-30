@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 import Avatar from "../../Avatar"
 
 import "./index.css"
-import stackimage from "../../../assets/stacklogo.png"
+import stackimage from "../../../assets/stackOverFlow.png"
 import searchlogo from  "../../../assets/searchlogo.svg"
 
 const TopNavbar =()=>{

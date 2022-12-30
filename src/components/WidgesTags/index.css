@@ -1,0 +1,31 @@
+
+.heading-watchedtag{
+    color: #525960;
+    background-color:#f8f9f9 ;
+    border: 2px solid #e1ecf4;
+    padding: 10px 10px;
+    margin: 0px 0px;
+
+}
+.tags-conatainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+
+.tags{
+    color: #39739d;
+    background-color: #e1ecf4;
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+    padding: 3px;
+}
+
+
+.widgestags-container{
+    width: 300px;
+    border: 1px solid #e1ecf4;
+    margin: 0px 24px 24px 24px;
+    padding:0px 0px 20px 0px;
+    
+}

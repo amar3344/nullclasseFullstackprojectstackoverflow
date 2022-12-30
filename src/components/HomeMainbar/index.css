@@ -1,0 +1,25 @@
+.homemain-conatiner{
+    float: right;
+    width: calc(100% - 300px - 24px);
+    margin: 0px 0px 0px 0px;
+
+}
+
+.home-main-top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-button{
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #0a95ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.home-button:hover{
+    background-color:#0a37ff ;
+}
