@@ -1,0 +1,116 @@
+.askquestion-top-heading{
+    height: 80px;
+    padding: 20px 0px;
+    
+}
+
+.askquestion-top-heading h1{
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+    margin: 15px 0px 0px 0px;
+    align-self: center;
+
+}
+
+.askquestion-container{
+    background-color: #f1f2f3;
+
+}
+
+.askquestion-form-container{
+    background-color: #fff;
+    padding: 20px 10px;
+}
+
+.askQuestion-title-container{
+    padding: 20px 0px;
+}
+
+.askQuestion-title-container label h6{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0% auto;
+    padding: 0% auto;
+   
+}
+
+.askQuestion-title-container label p{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0% auto;
+    padding: 5px 0px;
+    
+}
+
+.askQuestion-title-container input{
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.askquestion-body-container label h6{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0% auto;
+    padding: 0% auto;
+
+}
+
+.askquestion-body-container{
+    padding: 10px 0px;
+}
+    
+
+.askquestion-body-container label p{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0% auto;
+    padding: 5px 0px;
+
+}
+
+.askquestion-body-container textarea{
+    border: 1px solid rgba(0,0,0,0.3);
+    min-width: calc(100% - 24px);
+    max-height: 100px;
+
+}
+
+.askquestion-tag-container label h6{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0% auto;
+    padding: 0% auto;
+
+}
+
+.askquestion-tag-container label p{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0% auto;
+    padding: 5px 0px;
+
+}
+
+.askquestion-tag-container input{
+    border: 1px solid rgba(0,0,0,0.3);
+
+}
+
+.askquestion-submit-btn{
+    padding: 10px 10px;
+    color: #fff;
+    background-color: #0086d8;
+    margin: 20px 0px 50px 10px;
+    border: none;
+
+}
+
+.askquestion-submit-btn:hover{
+    background-color: #0494fc;
+
+}
+
+
+
+
+

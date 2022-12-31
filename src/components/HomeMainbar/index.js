@@ -1,7 +1,8 @@
-import {useLocation} from "react-router-dom"
+import {useLocation,useNavigate} from "react-router-dom"
 
 import Questions from "../Questions"
 import "./index.css"
+let User = 1
 
 const HomeMainbar=()=>{
 
@@ -35,13 +36,26 @@ const HomeMainbar=()=>{
     }]
      
     const location = useLocation()
+    const navgate = useNavigate()
+
+    const goesToQuestionPage=()=>{
+        if(User === null){
+            alert("Please Login")
+            navgate("/Auth")
+        }
+
+        else{
+            navgate("/AskQuestion")
+        }
+    }
+
 
     return(
         <div className="homemain-conatiner">
             <div className="home-main-top-container">
-                {location.pathname === "/" ? <h4>Top Questions</h4> : 
+                {location.pathname === "/" ? <h4 className="homemainbar-heading">Top Questions</h4> : 
                 <h4>All Questions</h4>}
-                <button className="home-button">Ask Questions</button>
+                <button className="home-button" onClick={goesToQuestionPage}>Ask Questions</button>
             </div>
             
             <ul className="home-questions-container">

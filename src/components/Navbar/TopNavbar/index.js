@@ -15,7 +15,7 @@ const TopNavbar =()=>{
         <nav className="nav-container">
             <div className="navbar-container">
                 <Link to="/">
-                    <img src = {stackimage} alt="stackoverflow" className="stack-image" />
+                    <img src = {stackimage} alt="stackoverflow" className="stack-image nav-button-image" />
                 </Link>
                 <Link to="/about" className="nav-items nav-buttons">About</Link>
                 <Link to="/products" className="nav-items nav-buttons">Products</Link>
