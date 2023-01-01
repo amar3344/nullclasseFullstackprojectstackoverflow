@@ -1,0 +1,6 @@
+.questionpage-container{
+    padding: 10px 20px;
+    list-style-type: none;
+    min-width: calc(100% - 300px);
+    
+}

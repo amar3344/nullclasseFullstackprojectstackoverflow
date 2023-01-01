@@ -1,7 +1,7 @@
 import "./index.css"
-import Leftsidebar from "../Leftsidebar"
-import Rightsidebar from "../Rightsidebar"
-import HomeMainbar from "../HomeMainbar"
+import Leftsidebar from "../../components/Leftsidebar"
+import Rightsidebar from "../../components/Rightsidebar"
+import HomeMainbar from "../../components/HomeMainbar"
 
 const Home =()=>{
     return(

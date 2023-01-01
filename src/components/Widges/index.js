@@ -1,3 +1,4 @@
+import React from "react"
 import "./index.css"
 
 import pen from "../../assets/pen.svg"

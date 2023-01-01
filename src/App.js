@@ -1,14 +1,14 @@
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 
 import TopNavbar from "./components/Navbar/TopNavbar"
-import Auth from "./components/Auth"
-import About from "./components/About"
-import Products from "./components/Products"
-import Teams from "./components/Teams"
-import Home from "./components/Home"
-import AskQuestion from "./components/AskQuestion"
-import QuestionsPage from "./components/QuestionsPage"
+import Auth from "./Pages/Auth"
+import About from "./Pages/About"
+import Products from "./Pages/Products"
+import Teams from "./Pages/Teams"
+import Home from "./Pages/Home"
+import AskQuestion from "./Pages/AskQuestion"
 import './App.css';
+import QuestionsPage from "./Pages/QuestionsPage"
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <Route path="/products" element={<Products/>}/>
         <Route path="/teams" element={<Teams/>}/>
         <Route path="/AskQuestion" element={<AskQuestion/>}/>
-        <Route path="/questions" element={<QuestionsPage/>}/>
+        <Route path="/question/:id" element={<QuestionsPage/>}/>
       </Routes>
 
     </Router>

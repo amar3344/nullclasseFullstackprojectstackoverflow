@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 import React from "react"
 
 import "./index.css"
@@ -5,7 +6,7 @@ import "./index.css"
 const Questions=(props)=> {
     const {questionDetails} = props
 
-    const {votes,noOfAnswers,questionTitle,userPosted,questionTags,postedOn} = questionDetails
+    const {votes,noOfAnswers,questionTitle,userPosted,questionTags,postedOn,id} = questionDetails
 
 
     return(
@@ -17,7 +18,7 @@ const Questions=(props)=> {
             </div>
             <div className="question-body">
                 <div className="question-container">
-                    <p className="question-text">{questionTitle}</p>
+                    <Link to={`/question/${id}`} className="question-text">{questionTitle}</Link>
                     <div className="question-tags-container">
                         {questionTags.map(eachtag=>(
                             <p className="each-tag" key={eachtag}>{eachtag}</p>
